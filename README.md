@@ -9,6 +9,9 @@ npm install
 ```
 npm run serve
 ```
+Access the application at:
+http://localhost:8080
+
 
 ### Compiles and minifies for production
 ```
@@ -18,6 +21,12 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Unit tests
+```
+npm run test:unit
+
 ```
 
 ### Customize configuration
