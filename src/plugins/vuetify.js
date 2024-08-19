@@ -3,8 +3,6 @@ import { aliases, fa } from 'vuetify/iconsets/fa';
 import 'vuetify/styles';
 import '@fortawesome/fontawesome-free/css/all.css'
 
-// TODO
-// Finish the custom theme colors and variables
 const customTheme = {
   dark: false, 
   colors: {

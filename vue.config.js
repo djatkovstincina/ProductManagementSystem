@@ -1,10 +1,18 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require('@vue/cli-service');
 module.exports = defineConfig({
   transpileDependencies: true,
 
   pluginOptions: {
     vuetify: {
-			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
-		}
+      // Add any vuetify-specific options here
+    }
+  },
+
+  configureWebpack: {
+    devtool: process.env.NODE_ENV === 'production' ? false : 'source-map'
+  },
+
+  css: {
+    sourceMap: process.env.NODE_ENV !== 'production'
   }
-})
+});

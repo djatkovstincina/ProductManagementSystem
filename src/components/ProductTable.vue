@@ -150,6 +150,8 @@ export default {
       &--edit {
         color: #000;
         font-weight: bold;
+        border: 1px solid #4a4a4a;
+        padding-inline-start: 8px;
       }
     }
   }
