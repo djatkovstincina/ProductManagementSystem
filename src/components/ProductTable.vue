@@ -16,6 +16,7 @@
       :search-options="{ enabled: true }"
       :pagination-options="{ enabled: true, perPage: 5 }"
       :theme="currentTheme"
+      :styleClass="`c--vue-good-table vgt-table ${currentTheme}`"
     >
       <template #table-row="props">
         <input
@@ -56,7 +57,7 @@ export default {
     },
     currentTheme: {
       type: String,
-      default: 'polar-bear',
+      default: '',
     },
   },
   data() {

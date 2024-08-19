@@ -45,7 +45,7 @@ export default {
         const allProducts = ref([]);
         const allAttributes = ref([]);
         const selectedProductName = ref('Select a Product');
-        const currentTheme = ref('polar-bear');
+        const currentTheme = ref('');
 
         const isDarkTheme = computed(() => theme.global.current.value.dark);
 
@@ -56,7 +56,7 @@ export default {
             theme.global.name.value =
                 theme.global.name.value === 'customTheme' ? 'dark' : 'customTheme';
             currentTheme.value =
-                theme.global.name.value === 'dark' ? 'nocturnal' : 'polar-bear';
+                theme.global.name.value === 'dark' ? 'nocturnal' : '';
         };
 
         const preloadData = async () => {

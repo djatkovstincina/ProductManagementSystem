@@ -63,7 +63,7 @@ export default {
     },
     currentTheme: {
       type: String,
-      default: 'polar-bear',
+      default: '',
     },
   },
   data() {

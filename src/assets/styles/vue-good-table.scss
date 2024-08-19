@@ -1,0 +1,85 @@
+// TODO
+// write styles for the dark theme
+.c--vue-good-table {
+
+    &.nocturnal {
+        border: 1px solid #444444;
+        background-color: #212121;
+
+        td {
+            border-bottom: 1px solid #444444;
+
+            .c--product-table--input {
+                color: #dbdbdb;
+          
+                &:focus {
+                  outline: none;
+                }
+          
+                &--edit {
+                  color: #fff;
+                }
+              }
+        }
+    }
+}
+
+.vgt-table,
+.vgt-wrap {
+
+    &.nocturnal {
+        border: 1px solid #444444;
+        background-color: #212121;
+        
+        th,
+        th.line-numbers,
+        .vgt-global-search {
+            border: 1px solid #444444;
+            background: #212121;
+            
+        }
+        
+        thead {
+            th,
+            th.line-numbers {
+                border: 1px solid #444444;
+                background: #212121;
+            }
+        }
+        
+        .vgt-global-search__input .vgt-input, 
+        .vgt-wrap.nocturnal .vgt-global-search__input .vgt-select {
+            border: 1px solid #444444;
+            background: #212121;
+
+        }
+
+        .vgt-global-search__input .input__icon .magnifying-glass {
+            border-color: #444444;
+
+            &:before {
+                background: #444444;
+            }
+        }
+
+        .vgt-wrap__footer {
+            border: 1px solid #444444;
+            background: #212121;
+
+            .footer__navigation__page-info {
+                color: #444444;
+            }
+
+            .footer__row-count {
+
+                &__label {
+                    color: #444444;
+                }
+    
+                &__select {
+                    background: #212121;
+                }
+            }
+        }
+    }
+}
