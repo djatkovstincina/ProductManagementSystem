@@ -1,6 +1,5 @@
 import { mount } from '@vue/test-utils';
 import ProductTable from '@/components/ProductTable.vue';
-import { VueGoodTable } from 'vue-good-table-next';
 
 describe('ProductTable.vue', () => {
   let wrapper;
